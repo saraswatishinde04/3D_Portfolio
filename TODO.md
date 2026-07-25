@@ -9,4 +9,8 @@
 5. ✅ Update `index.html` - Title, meta tags
 6. ✅ Clean up old files (counter.js, unused assets)
 7. ✅ Run dev server to test - **Running on http://localhost:5173/**
+8. ✅ Create GitHub repo via API
+9. ✅ Configure GitHub Pages with workflow source
+10. ✅ Push code to `main` branch
+11. ✅ GitHub Actions deploy workflow triggered
 
