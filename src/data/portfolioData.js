@@ -190,8 +190,8 @@ export const whyHireMe = [
 ];
 
 export const stats = [
-  { number: '10+', label: 'Projects Completed' },
+  { number: '5+', label: 'Projects Completed' },
   { number: '5+', label: 'Technologies Mastered' },
-  { number: '15+', label: 'Certifications Earned' },
+  { number: '5+', label: 'Certifications Earned' },
   { number: '3+', label: 'Years of Learning' },
 ];
