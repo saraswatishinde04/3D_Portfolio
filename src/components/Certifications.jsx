@@ -93,8 +93,11 @@ const Certifications = () => {
                   transition={{ duration: 0.3, delay: index * 0.1 }}
                   className="achievement-item glass-card"
                 >
-                  <span className="achievement-icon">⭐</span>
-                  <p>{item}</p>
+                  <span className="achievement-icon">{item.icon}</span>
+                  <div className="achievement-content">
+                    <h4>{item.title}</h4>
+                    <p>{item.description}</p>
+                  </div>
                 </motion.div>
               ))}
             </div>

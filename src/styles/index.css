@@ -1010,6 +1010,16 @@ section {
   line-height: 1.5;
 }
 
+.achievement-content h4 {
+  margin: 0 0 4px;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+}
+
+.achievement-content p {
+  margin: 0;
+}
+
 /* ===========================================
    CONTACT SECTION
    =========================================== */

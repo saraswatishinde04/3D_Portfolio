@@ -160,10 +160,35 @@ export const education = [
 ];
 
 export const achievements = [
-  'Social Media Manager at SVERI E-Cell',
-  'Team selected among Top 20 in National Entrepreneurship Challenge',
-  'Invited to IIT Bombay E-Summit',
-  'Research Paper: AI-Driven Drone-Based Crowd Management Using Image Processing and Machine Learning',
+  {
+    icon: '🎓',
+    title: 'Academic Excellence',
+    description: 'Graduated with a 9.5 CGPA in B.Tech Computer Science & Engineering.',
+  },
+  {
+    icon: '📊',
+    title: 'Business Analytics Training',
+    description:
+      'Completed hands-on training in Advanced Excel, SQL, Power BI, Tableau, and Business Analytics at ExcelR Training Institute, Bengaluru.',
+  },
+  {
+    icon: '💼',
+    title: 'End-to-End Data Analytics Projects',
+    description:
+      'Built practical analytics projects involving data cleaning, SQL analysis, KPI development, interactive dashboards, and business insights.',
+  },
+  {
+    icon: '🧠',
+    title: 'Advanced SQL & Business Intelligence',
+    description:
+      'Applied SQL joins, CTEs, window functions, subqueries, DAX, Power BI, Tableau, and Excel to solve business-oriented analytical problems.',
+  },
+  {
+    icon: '📈',
+    title: 'Data-Driven Dashboard Development',
+    description:
+      'Created interactive Power BI and Tableau dashboards for analyzing sales, customers, operations, pricing, and performance KPIs.',
+  },
 ];
 
 export const whyHireMe = [
