@@ -71,33 +71,43 @@ export const skillCategories = [
 export const featuredProjects = [
   {
     id: 1,
-    title: 'Sales Performance Dashboard',
+    title: 'Ecommerce Sales Profitability Dashboard',
     description:
-      'Interactive Power BI dashboard analyzing sales trends, customer segmentation, KPIs, regional performance, revenue growth, and executive insights.',
+      'Analyzes ecommerce sales and profitability to highlight revenue trends, product performance, and business opportunities through an interactive dashboard.',
     tech: ['Power BI', 'Excel', 'SQL'],
     image: null,
     liveLink: '#',
-    githubLink: '#',
+    githubLink: 'https://github.com/saraswatishinde04/Ecommerce-Sales-Profitability-Dashboard',
   },
   {
     id: 2,
-    title: 'Customer Churn Analysis',
+    title: 'Rapido Ride Booking Analysis',
     description:
-      'Analyzed customer behavior to identify churn patterns using Python and SQL. Created actionable recommendations to improve customer retention.',
-    tech: ['Python', 'Pandas', 'SQL'],
+      'Explores ride booking data to uncover demand patterns, trip trends, and service performance, helping identify opportunities to improve the rider experience.',
+    tech: ['Excel', 'SQL', 'Power BI'],
     image: null,
     liveLink: '#',
-    githubLink: '#',
+    githubLink: 'https://github.com/saraswatishinde04/rapido-ride-booking-analysis',
   },
   {
     id: 3,
-    title: 'Business Insights Dashboard',
+    title: 'Customer Churn & Revenue Risk Dashboard',
     description:
-      'Developed an executive dashboard to monitor KPIs, business growth, operational performance, and revenue trends with interactive filtering.',
-    tech: ['Power BI', 'Excel', 'SQL'],
+      'Interactive Power BI dashboard that segments customers by churn risk, identifies retention drivers, and quantifies revenue at risk.',
+    tech: ['Power BI', 'DAX', 'Data Modeling'],
     image: null,
     liveLink: '#',
-    githubLink: '#',
+    githubLink: 'https://github.com/saraswatishinde04/customer-churn-revenue-risk-dashboard',
+  },
+  {
+    id: 4,
+    title: 'Edinburgh Airbnb Analytics',
+    description:
+      'Analyzes Edinburgh Airbnb listings to reveal pricing patterns, neighborhood differences, and market trends that support informed hosting decisions.',
+    tech: ['Python', 'Pandas', 'Data Visualization'],
+    image: null,
+    liveLink: '#',
+    githubLink: 'https://github.com/saraswatishinde04/edinburgh-airbnb-analytics',
   },
 ];
 
@@ -105,59 +115,24 @@ export const additionalProjects = [
   {
     id: 4,
     title: 'AI CCTV Live Crime Detection',
-    description: 'Deep learning-based real-time crime detection system using CCTV footage with alert mechanisms.',
+    description: 'Detects potential criminal activity in CCTV footage in real time and supports prompt alerts for faster response.',
     tech: ['Python', 'Deep Learning', 'OpenCV'],
-    githubLink: '#',
+    githubLink: 'https://github.com/saraswatishinde04/live_cctv_crime_detection',
+    liveLink: 'https://livecctvcrimedetection-6ivqpf42mqsqoqchpjpikt.streamlit.app/',
   },
   {
     id: 5,
-    title: 'Journey Mate – AI Travel Planner',
-    description: 'AI-powered travel planning assistant that suggests itineraries, accommodations, and activities.',
+    title: 'Journey Mate - AI Travel Planner',
+    description: 'AI travel assistant that helps users plan trips with personalized itineraries, stays, and activity suggestions.',
     tech: ['Python', 'NLP', 'Flask'],
-    githubLink: '#',
+    githubLink: 'https://github.com/PriyankarLavate2005/HackeraResponsiveRangers',
   },
   {
     id: 6,
-    title: 'Mental Health Emotion Analysis Chatbot',
-    description: 'Chatbot that analyzes user emotions using NLP and provides mental health resources and support.',
-    tech: ['Python', 'NLP', 'TensorFlow'],
-    githubLink: '#',
-  },
-  {
-    id: 7,
     title: 'HRMS Management System',
-    description: 'Comprehensive HR management system for employee data, attendance, payroll, and performance tracking.',
+    description: 'Manages employee records and HR workflows, including attendance, payroll, and performance tracking.',
     tech: ['Java', 'Spring Boot', 'MySQL'],
-    githubLink: '#',
-  },
-  {
-    id: 8,
-    title: 'Spam Mail Detection',
-    description: 'Machine learning classifier to detect and filter spam emails with high accuracy.',
-    tech: ['Python', 'Scikit-learn', 'NLP'],
-    githubLink: '#',
-  },
-  {
-    id: 9,
-    title: 'House Price Prediction',
-    description: 'Predictive model for real estate prices using regression algorithms and feature engineering.',
-    tech: ['Python', 'Pandas', 'Scikit-learn'],
-    githubLink: '#',
-  },
-  {
-    id: 10,
-    title: 'Iris Flower Classification',
-    description: 'Classic ML classification project using the Iris dataset with multiple algorithms comparison.',
-    tech: ['Python', 'Scikit-learn', 'Matplotlib'],
-    githubLink: '#',
-  },
-  {
-    id: 11,
-    title: 'AI-Driven Drone-Based Crowd Management',
-    description:
-      'Research paper on using image processing and machine learning for drone-based crowd monitoring and management.',
-    tech: ['Python', 'Image Processing', 'ML'],
-    githubLink: '#',
+    githubLink: 'https://github.com/AmanDikole/HRMS',
   },
 ];
 
